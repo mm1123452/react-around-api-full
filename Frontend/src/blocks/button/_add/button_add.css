@@ -1,0 +1,25 @@
+.button_add {
+  background:url(../../../images/addButton.svg) no-repeat center center;
+  background-size: 1.6rem;
+  width:98%;
+  height:5rem;
+  padding:0;
+  margin-left:auto;
+  cursor:pointer;
+}
+
+.button.button_add  {
+  border: 2px solid #FFF;
+}
+
+@media only screen and (min-width: 426px)  and (max-width: 768px)  {
+  .button_add {
+    width:20%;
+  }
+}
+
+@media only screen and (min-width: 769px)  {
+  .button_add {
+    width:14.8rem;
+  }
+}

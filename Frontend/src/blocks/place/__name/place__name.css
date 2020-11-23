@@ -1,0 +1,20 @@
+.place__name{
+  color:#000000;
+  margin:0;
+  font-size:2.4rem;
+  font-weight:900;
+  line-height:2.9rem;
+  margin-right:auto;
+  margin-left:8%;
+  max-width:19.5rem;
+  overflow:auto;
+}
+
+@media only screen and (min-width: 500px) {
+  .place__name{
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    max-width:71%;
+  }
+}

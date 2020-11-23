@@ -1,0 +1,21 @@
+.overlay-container {
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-container:hover .edit {
+  visibility: visible;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 426px) {
+  .overlay-container {
+    width: 100%;
+  }
+}

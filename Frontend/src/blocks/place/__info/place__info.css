@@ -1,0 +1,15 @@
+.place__info {
+  border-radius: 0 0 10px 10px;
+  background-color: #FFFFFF;
+  padding:9% 0 11%;
+  margin-top:-2px;
+  width:28.2rem;
+  display:flex;
+}
+
+@media only screen and (min-width: 500px) {
+  .place__info {
+     justify-content: flex-start;
+  }
+}
+

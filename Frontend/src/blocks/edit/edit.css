@@ -1,0 +1,12 @@
+.edit {
+  background: url('../.././images/edit-pic-icon.png') center no-repeat;
+  height: 46px;
+  width:46px;
+  margin:auto auto;
+  color: #fff;
+  visibility: hidden;
+  position:relative;
+  top: 40px;
+  z-index:4;
+}
+

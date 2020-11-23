@@ -1,0 +1,8 @@
+
+.popup__icon_type_error {
+    background: url('../../../../images/error.svg');
+    background-repeat: no-repeat;
+    width:12rem;
+    height:12rem;
+    margin:0 auto 3.2rem auto;
+}

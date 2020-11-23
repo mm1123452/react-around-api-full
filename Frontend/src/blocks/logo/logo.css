@@ -1,0 +1,14 @@
+.logo{
+  background:url(../.././images/whiteTextLogo.svg) no-repeat  ;
+  height:2.4rem;
+  margin-left:8.4%;
+  width:39.38%;
+  max-width:17.3rem;
+}
+
+@media only screen and (min-width: 882px) {
+  .logo{
+    margin-left:0;
+    height:3.3rem;
+  }
+}

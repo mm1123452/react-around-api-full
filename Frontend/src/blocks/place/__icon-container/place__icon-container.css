@@ -1,0 +1,6 @@
+.place__icon-container {
+  margin-right:5%;
+  display: flex;
+  flex-direction:column;
+  align-content:center;
+}

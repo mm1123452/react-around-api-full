@@ -1,0 +1,11 @@
+.header__option {
+   font-size: 18px;
+   line-height: 22px;
+   font-weight:400;
+
+
+}
+    
+.header__option .login__link  {
+   color: #A9A9A9;
+}

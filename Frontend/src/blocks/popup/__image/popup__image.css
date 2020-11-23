@@ -1,0 +1,33 @@
+.popup__image {
+   width:100%;
+   height:auto;
+   max-width:24rem;
+   max-height:29.9rem;
+   margin:0 auto;
+
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .popup__image {
+    max-width:95%;
+    height:auto;
+    max-height:38rem;
+ }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px){
+  .popup__image {
+    max-width:60rem;
+    height:auto;
+    max-height:54rem;
+ }
+}
+
+@media only screen and (min-width: 1280px) {
+  .popup__image {
+    max-width:81.6rem;
+    height:auto;
+    max-height:54rem;
+ }
+}

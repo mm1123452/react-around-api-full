@@ -1,0 +1,9 @@
+.profile__text {
+  max-height:12rem;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 469px){
+  .profile__text {
+    flex:1 0 70%;
+  }
+}

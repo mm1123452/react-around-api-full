@@ -1,0 +1,15 @@
+.popup__title {
+  font-weight:900;
+  font-size:1.8rem;
+  line-height:2.1rem;
+  margin:0;
+  padding:8% 0 0 8.5%;
+}
+
+
+.popup__tooltip .popup__title {
+  width: 83%;
+  margin:0 auto;
+  padding:0;
+  text-align:center;
+}

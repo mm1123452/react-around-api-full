@@ -1,0 +1,21 @@
+.profile__title {
+  margin:1.4rem 0 0;
+  line-height:1.7rem;
+  text-align:center;
+  font-size:1.4rem;
+  flex:0 0 100%;
+
+  overflow:auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+@media only screen and (min-width: 426px){
+  .profile__title  {
+    flex:0 0 100%;
+    font-size:1.8rem;
+    line-height:2.2rem;
+    text-align:left;
+   }
+}
+

@@ -1,0 +1,21 @@
+.popup__form {
+  background-color:#fff;
+  width:70%;
+  margin:auto;
+  border-radius: .6rem;
+  max-width:43rem;
+  max-height:33rem;
+  position:relative;
+}
+
+.popup__tooltip .popup__form {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+@media only screen and (min-width: 426px) {
+  .popup__form {
+    min-height:0;
+  }
+}

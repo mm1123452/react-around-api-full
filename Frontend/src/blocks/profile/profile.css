@@ -1,0 +1,45 @@
+@import url(./__info/profile__info.css);
+@import url(./__name/profile__name.css);
+@import url(./__title/profile__title.css);
+@import url(./__text/profile__text.css);
+
+.profile {
+  padding: 13.1% 0 0;
+  width:88%;
+  margin: 0 auto;
+  min-height:28.6rem;
+
+  display:flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px)  {
+  .profile {
+    min-height:0;
+    max-height:120px;
+    max-width:882px;
+    width:97%;
+    margin:0;
+    padding: 4.1% 0 0 0;
+
+
+    flex-direction:row;
+    align-items:center;
+    flex-wrap:nowrap;
+   }
+}
+
+@media only screen and (min-width: 769px) {
+  .profile {
+    min-height:0;
+    width:100%;
+    margin:4rem 0 0;
+    margin:0;
+    padding: 4.1% 0 0 0;
+
+    flex-direction:row;
+    align-items:center;
+    flex-wrap:nowrap;
+   }
+}
+

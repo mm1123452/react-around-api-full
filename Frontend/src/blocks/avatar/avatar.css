@@ -1,0 +1,14 @@
+.avatar {
+  width: 12rem;
+  height: 12rem;
+  background: url("../../images/avatar.jpg") center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0;
+}
+
+@media only screen and (max-width: 426px) {
+  .avatar {
+    margin: 0 auto;
+  }
+}

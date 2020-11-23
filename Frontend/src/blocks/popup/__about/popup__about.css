@@ -1,0 +1,19 @@
+.popup__about {
+  border:none;
+  border-bottom:1px solid rgba(0, 0, 0, 0.2);
+  font-size:1.4rem;
+  line-height:1.7rem;
+  padding:0 0 3% 0;
+  margin:3% 0 0 8.5%;
+  width:85%;
+}
+
+.popup__about:focus {
+  outline:none;
+}
+
+ .popup__error_visible.popup__about:invalid {
+  border-bottom:1px solid red;
+}
+
+

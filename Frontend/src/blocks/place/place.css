@@ -1,0 +1,27 @@
+@import url(./__icon/place__icon.css);
+@import url(./__icon/_liked/place__icon_liked.css);
+@import url(./__image/place__image.css);
+@import url(./__info/place__info.css);
+@import url(./__name/place__name.css);
+@import url(./__delete/place__delete.css);
+@import url(./__delete-hide/place__delete-hide.css);
+@import url(./__likes-count/place__likes-count.css);
+@import url(./__icon-container/place__icon-container.css);
+
+.place {
+  position:relative;
+   margin: 0 auto 6%;
+   width:28.2rem;
+}
+
+.place:last-child {
+  margin-bottom:0;
+}
+
+@media only screen and (min-width: 585px) {
+  .place {
+    margin-bottom: 0;
+  }
+}
+
+
