@@ -16,7 +16,7 @@
   "homepage": "https://mabelm1.github.io/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "npm run build && scp -i /Downloads/around_key.pem -r ./build/* azureuser@40.121.39.213:/home/azureuser/react-around-api-full/Frontend",
+    "deploy": "npm run build && scp -r ./build/* azureuser@40.121.39.213:/home/azureuser/react-around-api-full/Frontend",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
